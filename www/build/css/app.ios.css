@@ -4533,7 +4533,7 @@ p {
   color: #000; }
 
 a {
-  color: #387ef5; }
+  color: white; }
 
 hr {
   background-color: rgba(0, 0, 0, 0.12); }
@@ -4558,7 +4558,7 @@ em[primary],
 sub[primary],
 sup[primary],
 ion-icon[primary] {
-  color: #387ef5; }
+  color: white; }
 
 h1[secondary],
 h2[secondary],
@@ -4900,7 +4900,7 @@ ion-alert {
   white-space: nowrap; }
 
 .alert-radio[aria-checked=true] .alert-radio-label {
-  color: #387ef5; }
+  color: white; }
 
 .alert-radio-icon {
   position: relative;
@@ -4920,7 +4920,7 @@ ion-alert {
   border-top-width: 0;
   border-left-width: 0;
   border-style: solid;
-  border-color: #387ef5;
+  border-color: white;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
 
@@ -4949,8 +4949,8 @@ ion-alert {
   background-color: #fff; }
 
 .alert-checkbox[aria-checked=true] .alert-checkbox-icon {
-  border-color: #387ef5;
-  background-color: #387ef5; }
+  border-color: white;
+  background-color: white; }
 
 .alert-checkbox[aria-checked=true] .alert-checkbox-inner {
   position: absolute;
@@ -4985,7 +4985,7 @@ ion-alert {
   border-right: 1px solid #dbdbdf;
   border-radius: 0;
   font-size: 17px;
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .alert-button:last-child {
     border-right: 0;
@@ -5019,12 +5019,12 @@ ion-badge {
 
 ion-badge {
   border-radius: 10px;
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
 
 .badge-primary {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
 
 .badge-secondary {
   color: #fff;
@@ -5127,13 +5127,13 @@ button[disabled],
   height: 2.8em;
   border-radius: 4px;
   font-size: 1.6rem;
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
   .button:hover:not(.disable-hover) {
     text-decoration: none;
     opacity: 0.8; }
   .button.activated {
-    background-color: #3474e1;
+    background-color: #ebebeb;
     opacity: 1; }
 
 .button-large {
@@ -5163,12 +5163,12 @@ button[disabled],
   border-width: 1px;
   border-style: solid;
   border-radius: 4px;
-  border-color: #387ef5;
-  color: #387ef5;
+  border-color: white;
+  color: white;
   background-color: transparent; }
   .button-outline.activated {
-    color: #fff;
-    background-color: #387ef5;
+    color: #000;
+    background-color: white;
     opacity: 1; }
 
 .hairlines .button-outline {
@@ -5176,13 +5176,13 @@ button[disabled],
 
 .button-clear {
   border-color: transparent;
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .button-clear.activated {
     background-color: transparent;
     opacity: .4; }
   .button-clear:hover:not(.disable-hover) {
-    color: #387ef5;
+    color: white;
     opacity: .6; }
 
 .button-round {
@@ -5193,27 +5193,27 @@ ion-button-effect {
   display: none; }
 
 .button-primary {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
   .button-primary.activated {
-    background-color: #3474e1; }
+    background-color: #ebebeb; }
 
 .button-outline-primary {
-  border-color: #387ef5;
-  color: #387ef5;
+  border-color: white;
+  color: white;
   background-color: transparent; }
   .button-outline-primary.activated {
-    color: #fff;
-    background-color: #387ef5; }
+    color: #000;
+    background-color: white; }
 
 .button-clear-primary {
   border-color: transparent;
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .button-clear-primary.activated {
     opacity: .4; }
   .button-clear-primary:hover:not(.disable-hover) {
-    color: #387ef5; }
+    color: white; }
 
 .button-secondary {
   color: #fff;
@@ -5479,8 +5479,8 @@ ion-checkbox {
   background-color: #fff; }
 
 .checkbox-checked {
-  border-color: #387ef5;
-  background-color: #387ef5; }
+  border-color: white;
+  background-color: white; }
 
 .checkbox-checked .checkbox-inner {
   position: absolute;
@@ -5492,7 +5492,7 @@ ion-checkbox {
   border-top-width: 0;
   border-left-width: 0;
   border-style: solid;
-  border-color: #fff;
+  border-color: #000;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
 
@@ -5509,10 +5509,10 @@ ion-checkbox {
     margin: 10px 8px 9px 0; }
 
 ion-checkbox[primary] .checkbox-checked {
-  border-color: #387ef5;
-  background-color: #387ef5; }
+  border-color: white;
+  background-color: white; }
   ion-checkbox[primary] .checkbox-checked .checkbox-inner {
-    border-color: #fff; }
+    border-color: #000; }
 
 ion-checkbox[secondary] .checkbox-checked {
   border-color: #32db64;
@@ -5598,8 +5598,8 @@ ion-chip {
     font-size: 1.2em; }
 
 ion-chip ion-icon[primary] {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
 
 ion-chip ion-icon[secondary] {
   color: #fff;
@@ -6322,8 +6322,8 @@ ion-item-divider {
   background-color: #f7f7f7; }
 
 ion-item-divider[primary] {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
 
 ion-item-divider[secondary] {
   color: #fff;
@@ -6454,7 +6454,7 @@ ion-label[floating] {
   margin-bottom: 6px; }
 
 ion-label[primary] {
-  color: #387ef5; }
+  color: white; }
 
 ion-label[secondary] {
   color: #32db64; }
@@ -6835,7 +6835,7 @@ ion-picker-cmp {
 .picker-button.activated {
   margin: 0;
   height: 44px;
-  color: #387ef5;
+  color: white;
   background: transparent; }
 
 .picker-columns {
@@ -6960,7 +6960,7 @@ ion-radio {
   border-top-width: 0;
   border-left-width: 0;
   border-style: solid;
-  border-color: #387ef5;
+  border-color: white;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
 
@@ -6980,12 +6980,12 @@ ion-radio {
   margin-left: 0; }
 
 .item-radio-checked ion-label {
-  color: #387ef5; }
+  color: white; }
 
 ion-radio[primary] .radio-checked {
-  color: #387ef5; }
+  color: white; }
   ion-radio[primary] .radio-checked .radio-inner {
-    border-color: #387ef5; }
+    border-color: white; }
 
 ion-radio[secondary] .radio-checked {
   color: #32db64; }
@@ -7092,7 +7092,7 @@ ion-range {
 .range-bar-active {
   bottom: 0;
   width: auto;
-  background: #387ef5; }
+  background: white; }
 
 .range-knob-handle {
   position: absolute;
@@ -7126,7 +7126,7 @@ ion-range {
   pointer-events: none; }
 
 .range-tick-active {
-  background: #387ef5; }
+  background: white; }
 
 .range-pin {
   position: relative;
@@ -7155,7 +7155,7 @@ ion-range {
 
 ion-range[primary] .range-bar-active,
 ion-range[primary] .range-tick-active {
-  background: #387ef5; }
+  background: white; }
 
 ion-range[secondary] .range-bar-active,
 ion-range[secondary] .range-tick-active {
@@ -7319,29 +7319,29 @@ ion-searchbar {
   border-bottom-width: 0; }
 
 ion-searchbar[primary] .searchbar-ios-cancel {
-  color: #387ef5; }
+  color: white; }
   ion-searchbar[primary] .searchbar-ios-cancel:hover:not(.disable-hover) {
-    color: #3474e1; }
+    color: #ebebeb; }
 
 .toolbar[primary] ion-searchbar .searchbar-search-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(255,%20255,%20255,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>"); }
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(0,%200,%200,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(0,%200,%200,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>"); }
 
 .toolbar[primary] ion-searchbar .searchbar-input {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.08); }
+  color: #000;
+  background: rgba(0, 0, 0, 0.08); }
   .toolbar[primary] ion-searchbar .searchbar-input::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(0, 0, 0, 0.5); }
   .toolbar[primary] ion-searchbar .searchbar-input:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(0, 0, 0, 0.5); }
   .toolbar[primary] ion-searchbar .searchbar-input::-webkit-input-placeholder {
     text-indent: 0;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(0, 0, 0, 0.5); }
 
 .toolbar[primary] ion-searchbar .searchbar-clear-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>"); }
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(0,%200,%200,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>"); }
 
 .toolbar[primary] ion-searchbar .searchbar-ios-cancel {
-  color: #fff; }
+  color: white; }
 
 ion-searchbar[secondary] .searchbar-ios-cancel {
   color: #32db64; }
@@ -7416,7 +7416,7 @@ ion-searchbar[light] .searchbar-ios-cancel {
   background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(0,%200,%200,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>"); }
 
 .toolbar[light] ion-searchbar .searchbar-ios-cancel {
-  color: #387ef5; }
+  color: white; }
 
 ion-searchbar[dark] .searchbar-ios-cancel {
   color: #222; }
@@ -7507,26 +7507,26 @@ ion-segment {
   height: 3.2rem;
   border-width: 1px;
   border-style: solid;
-  border-color: #387ef5;
+  border-color: white;
   font-size: 1.3rem;
   line-height: 3rem;
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .segment-button ion-icon {
     font-size: 2.6rem;
     line-height: 2.8rem; }
   .segment-button.segment-activated {
-    color: #fff;
-    background-color: #387ef5;
+    color: #000;
+    background-color: white;
     opacity: 1;
     -webkit-transition: 100ms all linear;
     transition: 100ms all linear; }
   .segment-button:hover:not(.segment-activated) {
-    background-color: rgba(56, 126, 245, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     -webkit-transition: 100ms all linear;
     transition: 100ms all linear; }
   .segment-button:active:not(.segment-activated) {
-    background-color: rgba(56, 126, 245, 0.16);
+    background-color: rgba(255, 255, 255, 0.16);
     -webkit-transition: 100ms all linear;
     transition: 100ms all linear; }
   .segment-button:first-of-type {
@@ -7540,7 +7540,7 @@ ion-segment {
     border-radius: 0 4px 4px 0; }
 
 .segment-button-disabled {
-  color: rgba(56, 126, 245, 0.3);
+  color: rgba(255, 255, 255, 0.3);
   pointer-events: none; }
 
 .toolbar ion-segment {
@@ -7560,21 +7560,21 @@ ion-segment {
     line-height: 2.4rem; }
 
 ion-segment[primary] .segment-button {
-  border-color: #387ef5;
-  color: #387ef5; }
+  border-color: white;
+  color: white; }
   ion-segment[primary] .segment-button:hover:not(.segment-activated) {
-    background-color: rgba(56, 126, 245, 0.1); }
+    background-color: rgba(255, 255, 255, 0.1); }
   ion-segment[primary] .segment-button:active:not(.segment-activated) {
-    background-color: rgba(56, 126, 245, 0.16); }
+    background-color: rgba(255, 255, 255, 0.16); }
   ion-segment[primary] .segment-button.segment-activated {
-    color: #fff;
-    background-color: #387ef5; }
+    color: #000;
+    background-color: white; }
 
 ion-segment[primary] .segment-button-disabled {
-  color: rgba(56, 126, 245, 0.3); }
+  color: rgba(255, 255, 255, 0.3); }
 
 .toolbar[primary] .segment-button.segment-activated {
-  color: #387ef5; }
+  color: white; }
 
 ion-segment[secondary] .segment-button {
   border-color: #32db64;
@@ -7858,7 +7858,7 @@ ion-tabs[tabbarPlacement=top] ion-tabbar {
 
 .tab-button:hover:not(.disable-hover),
 .tab-button[aria-selected=true] {
-  color: #387ef5; }
+  color: white; }
 
 .tab-button-text {
   margin-top: 0;
@@ -7907,13 +7907,13 @@ ion-tabs[tabbarPlacement=top] ion-tabbar {
   border-bottom-width: 0.55px; }
 
 ion-tabs[primary] ion-tabbar {
-  border-color: #0c60ee;
-  background-color: #387ef5; }
+  border-color: #e6e6e6;
+  background-color: white; }
   ion-tabs[primary] ion-tabbar .tab-button {
-    color: #fff; }
+    color: #000; }
   ion-tabs[primary] ion-tabbar .tab-button:hover:not(.disable-hover),
   ion-tabs[primary] ion-tabbar .tab-button[aria-selected=true] {
-    color: #fff; }
+    color: #000; }
 
 ion-tabs[secondary] ion-tabbar {
   border-color: #21b94e;
@@ -8005,7 +8005,7 @@ ion-toggle {
   transition: transform 300ms, width 120ms ease-in-out 80ms, left 110ms ease-in-out 80ms, -webkit-transform 300ms; }
 
 .toggle-checked {
-  background-color: #387ef5; }
+  background-color: white; }
 
 .toggle-activated::before,
 .toggle-checked::before {
@@ -8041,7 +8041,7 @@ ion-toggle {
     padding: 6px 16px 5px 0; }
 
 ion-toggle[primary] .toggle-checked {
-  background-color: #387ef5; }
+  background-color: white; }
 
 ion-toggle[secondary] .toggle-checked {
   background-color: #32db64; }
@@ -8350,24 +8350,24 @@ ion-buttons[right] {
 .bar-button-outline {
   border-width: 1px;
   border-style: solid;
-  border-color: #387ef5;
-  color: #387ef5;
+  border-color: white;
+  color: white;
   background-color: transparent; }
   .bar-button-outline:hover:not(.disable-hover) {
     opacity: .4; }
   .bar-button-outline.activated {
-    color: #fff;
-    background-color: #387ef5; }
+    color: #000;
+    background-color: white; }
 
 .bar-button-solid {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
   .bar-button-solid:hover:not(.disable-hover) {
-    color: #fff;
+    color: #000;
     opacity: .4; }
   .bar-button-solid.activated {
-    color: #fff;
-    background-color: #3474e1;
+    color: #000;
+    background-color: #ebebeb;
     opacity: .4; }
 
 .bar-button-icon-left ion-icon {
@@ -8433,43 +8433,43 @@ ion-buttons[right] {
   order: 7; }
 
 .bar-button-default {
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .bar-button-default:hover:not(.disable-hover) {
-    color: #387ef5; }
+    color: white; }
   .bar-button-default.activated {
     opacity: .4; }
 
 .toolbar[primary] .toolbar-background {
-  border-color: #0c60ee;
-  background: #387ef5; }
+  border-color: #e6e6e6;
+  background: white; }
 
 .toolbar[primary] .toolbar-title,
 .toolbar[primary] .bar-button-default {
-  color: #fff; }
+  color: #000; }
 
 .bar-button-primary {
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
   .bar-button-primary:hover:not(.disable-hover) {
-    color: #387ef5; }
+    color: white; }
   .bar-button-primary.activated {
     opacity: .4; }
 
 .bar-button-outline-primary {
-  border-color: #3474e1;
-  color: #3474e1;
+  border-color: #ebebeb;
+  color: #ebebeb;
   background-color: transparent; }
   .bar-button-outline-primary.activated {
-    color: #fff;
-    background-color: #3474e1; }
+    color: #000;
+    background-color: #ebebeb; }
 
 .bar-button-solid-primary {
-  color: #fff;
-  background-color: #387ef5; }
+  color: #000;
+  background-color: white; }
   .bar-button-solid-primary.activated {
-    color: #fff;
-    background-color: #3474e1; }
+    color: #000;
+    background-color: #ebebeb; }
 
 .toolbar[secondary] .toolbar-background {
   border-color: #21b94e;
@@ -8682,3 +8682,111 @@ body {
   font-family: -apple-system, "Helvetica Neue", "Roboto", sans-serif;
   font-size: 1.4rem;
   background-color: #fff; }
+
+.sign-page .form_login {
+  margin-top: 35px;
+  margin-bottom: 10px; }
+
+.sign-page ion-content {
+  background-size: cover; }
+  .sign-page ion-content .brand {
+    padding-top: 45px; }
+  .sign-page ion-content .item {
+    background: transparent; }
+    .sign-page ion-content .item.input-has-focus::after {
+      border-bottom: none !important; }
+    .sign-page ion-content .item ion-input {
+      color: white; }
+      .sign-page ion-content .item ion-input input::-webkit-input-placeholder {
+        color: white; }
+  .sign-page ion-content .item:last-child {
+    margin-top: 12px; }
+
+.sign-page ion-list > .item:last-child,
+.sign-page ion-list > .item-wrapper:last-child .item {
+  border: none; }
+
+.item-input ion-label {
+  color: white; }
+
+.intro-page ion-slide.brand {
+  margin-top: -40%; }
+
+.intro-page p {
+  font-size: 1.3rem; }
+
+.intro-page .description {
+  bottom: -10%;
+  position: absolute; }
+
+.frost_glass {
+  filter: blur(5px);
+  -webkit-filter: blur(5px); }
+
+.filled {
+  width: 100%;
+  height: 100%; }
+
+.fit_bg_img {
+  position: fixed;
+  background-size: cover; }
+
+.swiper-pagination {
+  top: 30px;
+  z-index: -1; }
+
+.swiper-pagination-bullet {
+  background: transparent;
+  border: 2px solid whitesmoke; }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff;
+    border: none; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.no_spacing {
+  margin: 0;
+  padding: 0; }
+
+.fixed {
+  bottom: 0;
+  position: fixed; }
+
+.top_border {
+  border-top: 1px solid; }
+
+.button-block.button-facebook {
+  color: #fff !important;
+  background: none repeat scroll 0 0 #3f569b !important; }
+  .button-block.button-facebook ion-icon {
+    top: 10px;
+    left: 20px;
+    position: absolute;
+    padding-right: 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3); }
+
+.line {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  width: 85%; }
+  .line span {
+    color: white; }
+  .line .left {
+    background: #C3C3C3;
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 40%; }
+  .line .right {
+    background: #C3C3C3;
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%; }

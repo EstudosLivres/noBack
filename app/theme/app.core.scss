@@ -8,3 +8,85 @@
 // App Shared Sass variables belong in app.variables.scss.
 
 @import "../pages/home/home";
+@import "../pages/sign/sign";
+@import "../pages/intro/intro";
+
+
+.swiper-pagination {
+  top: 30px;
+  z-index: -1;
+}
+
+.swiper-pagination-bullet {
+  background: transparent;
+  border: 2px solid whitesmoke;
+
+  &.swiper-pagination-bullet-active {
+    background: #fff;
+    border: none;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.no_spacing {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+  bottom: 0;
+  position: fixed;
+}
+
+.top_border {
+  border-top: 1px solid;
+}
+
+.button-block.button-facebook {
+  color: #fff !important;
+  background: none repeat scroll 0 0 #3f569b !important;
+
+  ion-icon {
+    top: 10px;
+    left: 20px;
+    position: absolute;
+    padding-right: 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+.line {
+  display: block;
+  margin: 0 auto;
+  margin-bottom:10px;
+  position: relative;
+  text-align: center;
+  width: 85%;
+
+  span {
+    color: white;
+  }
+
+  .left {
+    background: #C3C3C3;
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+  }
+
+  .right {
+    background: #C3C3C3;
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%;
+  }
+
+}

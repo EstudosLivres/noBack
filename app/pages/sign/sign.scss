@@ -1,0 +1,47 @@
+.sign-page {
+  .form_login {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  ion-content {
+    background-size: cover;
+
+    .brand {
+      padding-top: 45px;
+    }
+
+    .item {
+      background: transparent;
+
+      &.input-has-focus::after {
+        border-bottom: none !important;
+      }
+
+      ion-icon {
+        //margin-top: 33px;
+      }
+
+      ion-input {
+        color: white;
+
+        input::-webkit-input-placeholder {
+          color: white;
+        }
+      }
+    }
+
+    .item:last-child {
+      margin-top: 12px;
+    }
+  }
+
+  ion-list > .item:last-child,
+  ion-list > .item-wrapper:last-child .item {
+    border: none;
+  }
+}
+
+.item-input ion-label {
+  color: white;
+}

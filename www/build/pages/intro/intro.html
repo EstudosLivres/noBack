@@ -1,0 +1,64 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content>
+    <ion-slides class="fit_bg_img" #userSignWizard [options]="mySlideOptions"
+                style="background-image: url('imgs/wizard_bg.png')" pager>
+
+        <ion-slide class="brand">
+            <ion-row>
+                <ion-col width-33 offset-33>
+                    <img src="imgs/brand.png">
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="description">
+                <ion-col width-80 offset-10>
+                    <p favorite>
+                        Frase de Efeito 1
+                    </p>
+                </ion-col>
+            </ion-row>
+        </ion-slide>
+
+        <ion-slide class="brand">
+            <ion-row>
+                <ion-col width-33 offset-33>
+                    <img src="imgs/brand.png">
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="description">
+                <ion-col width-80 offset-10>
+                    <p favorite>
+                        Frase de Efeito 2
+                    </p>
+                </ion-col>
+            </ion-row>
+        </ion-slide>
+
+        <ion-slide class="brand">
+            <ion-row>
+                <ion-col width-33 offset-33>
+                    <img src="imgs/brand.png">
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="description">
+                <ion-col width-80 offset-10>
+                    <p favorite>
+                        Frase de Efeito 3
+                    </p>
+                </ion-col>
+            </ion-row>
+        </ion-slide>
+
+        <!-- Must fix the change image (to not cached img) "flash bug effect" -->
+        <img src="{{ blurWizardBg }}" style="width: 0; height: 0;">
+    </ion-slides>
+
+    <button class="top_border fixed fill" block light clear (click)="skipIntro()"> Pular introdução </button>
+</ion-content>

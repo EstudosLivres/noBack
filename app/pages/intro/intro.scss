@@ -1,0 +1,29 @@
+.intro-page {
+  ion-slide.brand {
+    margin-top: -40%;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    bottom: -10%;
+    position: absolute;
+  }
+}
+
+.frost_glass {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.filled {
+  width: 100%;
+  height: 100%;
+}
+
+.fit_bg_img {
+  position: fixed;
+  background-size: cover;
+}
